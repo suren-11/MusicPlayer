@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FavouriteActivity">
+    tools:context=".PlaylistActivity">
+
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -27,9 +28,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:contentDescription="@string/favourites_btn"
+            android:contentDescription="@string/playlist_btn"
             android:gravity="center"
-            android:text="@string/favourites_btn"
+            android:text="@string/playlist_btn"
             android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -40,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
-        app:icon="@drawable/shuffle_icon"
+        app:icon="@drawable/add_icon"
         app:iconSize="35dp"
         app:iconTint="@color/cool_pink"
         app:layout_constraintBottom_toBottomOf="parent"
